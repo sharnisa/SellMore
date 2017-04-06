@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>Mobile Web- Project</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <link rel="stylesheet" href="_css/jquery.mobile.css" />
+      <link rel="stylesheet" href="_css/mystyles.css" />
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      <script src="_js/jquery.js"></script>
+      <script src="_js/jquery.mobile.js"></script>
+      <script src="_js/myscript.js"></script>
+	  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+   </head>
+   <body>
+      <!-- Home page -->
+      <div data-role="page" id="home" data-theme="a">
+         <header data-role="header">
+            <h1 class="ui-title" style="padding-left:10px">Sell More</h1>
+         </header>
+         <section class="ui-content" role="main">
+            <nav data-role="navbar">
+               <ul>
+                  <li><a href="#home" class="ui-btn">Home</a></li>
+                  <li><a href="#Productspage" class="ui-btn">
+                     <span class="prodnav">Products</span></a>
+                  </li>
+                  <li><a href="#customers" class="ui-btn">
+                     <span class="custnav">Customers</span></a>
+                  </li>
+                  <li><a href="#invPage" class="ui-btn">
+                     <span class="invnav">Invoices</span></a>
+                  </li>
+               </ul>
+            </nav>
+            <div style="padding:30px">
+               <canvas id="myCanvas" width="360" height="400">
+               </canvas>
+            </div>
+         </section>
+         <footer data-role="footer">
+            <h4>Developed By : TEAM HTML</h2>
+         </footer>
+      </div>
+      <!-- end of home page -->
+      <!-- Start of Productspage page -->
+      <div data-role="page" id="Productspage" data-theme="a">
+         <header data-role="header">
+            <h1 class="ui-title">Product</h1>
+         </header>
+         <section class="ui-content" role="main" >
+            <div data-role="collapsible" data-collapsed="false"  data-iconpos="right" id="col1" >
+               <h4>Computers</h4>
+               <ul data-role="listview" data-inset="true" id="comps">
+               </ul>
+            </div>
+            <!-- /collapsible -->
+            <div data-role="collapsible" data-collapsed="false" data-iconpos="right" id="col2" >
+               <h3>ipad</h3>
+               <ul data-role="listview" data-inset="true" id="pads" >
+               </ul>
+            </div>
+            <!-- /collapsible -->
+            <div data-role="collapsible" data-collapsed="false" data-iconpos="right" id="col3" >
+               <h3>phones</h3>
+               <ul data-role="listview" data-inset="true" data-rel="dialog" data-transition="pop" id="phones">
+               </ul>
+            </div>
+            <!-- /collapsible -->
+         </section>
+         <footer data-role="footer">
+         </footer>
+      </div>
+      <!-- Start of Customer page -->
+       <div data-role="page" id="customers" data-theme="a">
+         <header data-role="header">
+            <h1 class="ui-title">Customers</h1>
+         </header>
+         <section class="ui-content" role="main" >
+            <div   data-role="collapsible" data-collapsed="false"  data-iconpos="right" >
+               <ul data-role="listview" data-inset="true" id="custli">
+               </ul>
+            </div>
+            </div>
+            <!-- /collapsible -->
+         </section>
+         <footer data-role="footer">
+         </footer>
+      </div>
+	  <!--Inv Page-->
+	   <div data-role="page" id="invPage" data-theme="a">
+         <header data-role="header">
+            <h1 class="ui-title">Invoices</h1>
+         </header>
+         <section class="ui-content" role="main" id="customerInv" >
+           
+            <!-- /collapsible -->
+            
+            <!-- /collapsible -->
+         </section>
+         <footer data-role="footer">
+         </footer>
+      </div>
+	  <!--Individual Invoice-->
+	  <div data-role="page" id="indInv">
+         <header data-role="header" data-theme="a" >
+            <h1 id="InvHead"></h1>
+         </header>
+         <!-- /header -->
+         <div class="ui-content" role="main" data-theme="a" >
+            <h1 id="custName"></h1>
+            <p id="Address"></p>
+			<p id="Phone"></p><br><br>
+			<p id="invoiceid"></p>
+			<p id="invdate"></p><br><br>
+			<p id="a0"></p>
+			<p id="pr0"></p><br><br>
+			<p id="a1"></p>
+			<p id="pr1"></p><br><br>
+			<p id="tot"></p><br><br>
+            
+         </div>
+		
+      </div>
+      <!-- Start of #popup -->
+      <div data-role="page" id="popup">
+         <header data-role="header" data-theme="a" id="pophead">
+            <h1 id="Pophead"></h1>
+         </header>
+         <!-- /header -->
+         <div class="ui-content" role="main" data-theme="a" >
+            <img src="" id="pop-img">
+            <h1 id="popName"></h1>
+			<div id="contents"></div>
+            
+         </div>
+      </div>
+	  
+		
+	  
+      <!-- end of popup page -->
+	  <div data-role="page" id="popup1">
+         <header data-role="header" data-theme="a" id="pophead" role="banner" class="ui-header ui-bar-a">
+		 <a role="button" href="#customers" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext ui-btn-left">Close</a>
+            <h1 id="Pophead" class="ui-title" role="heading" aria-level="1"></h1>
+         </header>
+		 <!-- /header -->
+		 
+         <div class="ui-content" role="main" data-theme="a" id="contents1">
+            
+            
+         </div>
+      </div>
+      <!-- Start of productDetailPage -->
+   </body>
+</html>

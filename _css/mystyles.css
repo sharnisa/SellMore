@@ -1,0 +1,14 @@
+
+.ui-icon-sheridan:after
+{
+	background-image: url("images/sheridan.png");
+	background-size: 22px 22px;
+}
+#pop-img
+{
+	align:center;
+}
+[data-role=navbar] .ui-btn-inner{
+	padding-right:0px;
+	padding-left:0px;
+}

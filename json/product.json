@@ -1,0 +1,182 @@
+
+{
+  "products": [
+    {
+      "prodId": "p1",
+      "model": "IMAC",
+      "name": "Apple iMAC",
+      "image": "images/imac.jpg",
+      "techspecs": {
+        "Screen": "27-inch Retina 5K Display",
+        "Processor": "Intel Core i5 - 3.3 GHz",	
+        "Memory": "32GB 1867 MHz DDR3",
+        "Storage": "2TB Fusion Drive",
+        "Graphics": "AMD Radeon R9 M395 with 2GB of GDDR5 memory",
+        "OS": "OS X El Capitan"
+      },
+      "price": "2999",
+      "buy": "http://www.apple.com/ca/shop/buy-mac/imac"
+    },
+	
+	
+    {
+      "prodId": "p2",
+      "model": "MACBOOK",
+      "name": "Apple Macbook Pro",
+      "image": "images/macbookpro.jpg",
+      "techspecs": {
+        "Screen": "15.4-inch Retina Display",
+        "Processor": "Intel Core i7 - 2.5 GHz ",
+        "Memory": "16GB of 1600MHz DDR3L",
+        "Storage": "256GB PCIe-based flash storage",
+        "Graphics": "AMD Radeon R9 M370X with 2GB of GDDR5 memory ",
+        "OS": "OS X El Capitan"
+      },
+      "price": "3049",
+      "buy": "http://www.apple.com/ca/shop/buy-mac/macbook-pro"
+    },
+	
+	
+	{
+      "prodId": "p3",
+      "model": "MACBOOK",
+      "name": "Apple Macbook Air",
+      "image": "images/macbookair.jpg",
+      "techspecs": {
+        "Screen": "13.3-inch LED Display",
+        "Processor": "Intel Core i5 - 1.6GHz dual core",
+        "Memory": "8GB of 1600MHz LPDDR3",
+        "Storage": "256GB PCIe-based flash storage",
+        "Graphics": "Intel HD Graphics 6000",
+        "OS": "OS X El Capitan"
+      },
+      "price": "1449",
+      "buy": "http://www.apple.com/ca/shop/buy-mac/macbook-air"
+    },
+	
+	
+	{
+      "prodId": "p4",
+      "model": "MACBOOK",
+      "name": "Apple Macbook",
+      "image": "images/macbook.jpg",
+      "techspecs": {
+        "Screen": "13.3-inch Retina Display",
+        "Processor": "Intel Core m5 - 1.2GHz dual core",
+        "Memory": "8GB of 1866MHz LPDDR3 onboard memory",
+        "Storage": "512GB PCIe-based onboard flash storage",
+        "Graphics": "Intel HD Graphics 515",
+        "OS": "OS X El Capitan"
+      },
+      "price": "1899",
+      "buy": "http://www.apple.com/ca/shop/buy-mac/macbook"
+    },
+	
+	
+    {
+      "prodId": "p5",
+      "model": "IPAD",
+      "name": "Apple iPad Air 2",
+      "image": "images/ipadair.jpg",
+      "techspecs": {
+        "Screen": "9.7-inch Retina Display",
+        "Processor": "A8X Chip M8 Processor",
+        "Memory": "64 GB",
+        "Storage": "--data not available--",
+        "Graphics": "2048-by-1536-pixel resolution at 264 ppi",
+        "OS": "IOS 9"
+      },
+      "price": "609", 
+      "buy": "http://www.apple.com/ca/shop/buy-ipad/ipad-air-2"
+    },
+	
+	
+    {
+      "prodId": "p6",
+      "model": "IPAD",
+      "name": "Apple iPad Pro",
+      "image": "images/ipadpro.jpg",
+      "techspecs": {
+        "Screen": "12.9-inch Retina Display",
+        "Processor": "A9X Chip M9 Processor",
+        "Memory": "256 GB",
+        "Storage": "--data not available--",
+        "Graphics": "2732-by-2048 resolution at 264 ppi",
+        "OS": "IOS 9"
+      },
+      "price": "1629",
+      "buy": "http://www.apple.com/ca/shop/buy-ipad/ipad-pro"
+    },
+	
+	
+	{
+      "prodId": "p7",
+      "model": "IPAD",
+      "name": "Apple iPad Mini 4",
+      "image": "images/ipadmini4.jpg",
+      "techspecs": {
+        "Screen": "7.9-inch Retina Display",
+        "Processor": "A8X Chip M8 Processor",
+        "Memory": "128 GB",
+        "Storage": "--data not available--",
+        "Graphics": "2048-by-1536 resolution at 326 ppi",
+        "OS": "IOS 9"
+      },
+      "price": "659",
+      "buy": "http://www.apple.com/ca/shop/buy-ipad/ipad-mini-4"
+    },
+    
+	
+	{
+      "prodId": "p8",
+      "model": "IPHONE",
+      "name": "Apple iPhone 6",
+      "image": "images/iphone6.jpg",
+      "techspecs": {
+        "Screen": "4.7-inch Retina HD Display 3D-Touch",
+        "Processor": "A8 Chip M8 Processor",
+        "Memory": "64 GB",
+        "Storage": "--data not available--",
+        "Graphics": "1334-by-750-pixel resolution at 326 ppi",
+        "OS": "IOS 9"
+      },
+      "price": "899",
+      "buy": "http://www.apple.com/ca/shop/buy-iphone/iphone6"
+    },
+	
+	
+	{
+      "prodId": "p9",
+      "model": "IPHONE",
+      "name": "Apple iPhone 6S PLUS",
+      "image": "images/iphone6S.jpg",
+      "techspecs": {
+        "Screen": "5.5-inch Retina Display 3D-Touch",
+        "Processor": "A9 Chip M9 Processor",
+        "Memory": "128 GB",
+        "Storage": "--data not available--",
+        "Graphics": "1920-by-1080-pixel resolution at 401 ppi",
+        "OS": "IOS 9"
+      },
+      "price": "1289",
+      "buy": "http://www.apple.com/ca/shop/buy-iphone/iphone6s"
+    },
+	
+	
+	{
+      "prodId": "p10",
+      "model": "IPHONE",
+      "name": "Apple iPhone SE",
+      "image": "images/iphoneSE.jpg",
+      "techspecs": {
+        "Screen": "4-inch Retina Display",
+        "Processor": "A9 Chip, M9 Processor",
+        "Memory": "64 GB",
+        "OS": "IOS 9"
+      },
+      "price": "709",
+      "buy": "http://www.apple.com/ca/shop/buy-iphone/iphone-se"
+    }
+	
+  ]
+}

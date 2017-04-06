@@ -1,0 +1,137 @@
+
+{
+  "customers": [
+    {
+      "id": "C0001",
+      "name": "Maitri",
+      "email": "patel446@sheridancollege.ca",
+      "phone": "(647) 309-7977",
+      "address": "17 Abelard Ave, Brampton, ON L6Y 2K7",
+      "inv": [
+        "100001",
+        "100002",
+		"100003"
+		
+      ]
+    },
+	
+    {
+      "id": "C0002",
+      "name": "Nisarg",
+      "email": "sharnisa@sheridancollege.ca",
+      "phone": "(905) 869-9921",
+      "address": "4 Dafoe Cresent, Brampton, ON L6Y 2L2",
+      "inv": [
+        "100002",
+        "100003",
+        "100004"
+       ]
+    },
+	
+    {
+      "id": "C0003",
+      "name": "Kiran",
+      "email": "patkiran@sheridancollege.ca",
+      "phone": "(416) 487-5075",
+      "address": "17 Banting Crescent, Brampton, ON L6Y 2M1",
+      "inv": [
+        "100003",
+        "100004",
+		"100005"
+      ]
+    },
+	
+    {
+      "id": "C0004",
+      "name": "John",
+      "email": "jpaul@sheridancollege.ca",
+      "phone": "(905) 987-5899",
+      "address": "15 Blue Bonnet Dr, Brampton ON",
+      "inv": [
+		"100004",
+        "100005",
+		"100006"
+	  ]
+    },
+	
+    {
+      "id": "C0005",
+      "name": "Chris",
+      "email": "chris.david@sheridancollege.ca",
+      "phone": "(416) 999-8877",
+      "address": "88 Kingknoll Dr, Brampton ON",
+      "inv": [
+        "100005",
+		"100006",
+		"100007"
+      ]
+    },
+	
+	{
+      "id": "C0006",
+      "name": "Michael",
+      "email": "miketom@sheridancollege.ca",
+      "phone": "(647) 989-1111",
+      "address": "7899 McLaughlin Road, Brampton ON",
+      "inv": [
+		"100006",
+        "100007",
+		"100008"
+	  ]
+    },
+	
+	{
+      "id": "C0007",
+      "name": "Dhruval",
+      "email": "mistrdhr@sheridancollege.ca",
+      "phone": "(647) 705-8899",
+      "address": "159 Timberlane Dr, Brampton ON",
+      "inv": [
+		"100007",
+        "100008",
+		"100009"
+	  ]
+    },
+	
+	{
+      "id": "C0008",
+      "name": "Jonathan",
+      "email": "jjhala@sheridancollege.ca",
+      "phone": "(647) 705-8899",
+      "address": "159 Timberlane Dr, Brampton ON",
+      "inv": [
+		"100008",
+        "100009",
+		"100001"
+	  ]
+    },
+	
+	{
+      "id": "C0009",
+      "name": "Megan",
+      "email": "mahamegan@sheridancollege.ca",
+      "phone": "(647) 705-8899",
+      "address": "159 Timberlane Dr, Brampton ON",
+      "inv": [
+		"100001",
+        "100003",
+		"100005",
+		"100007"
+	  ]
+    },
+	
+	{
+      "id": "C0010",
+      "name": "Tony",
+      "email": "tonthakkar@sheridancollege.ca",
+      "phone": "(647) 705-8899",
+      "address": "159 Timberlane Dr, Brampton ON",
+      "inv": [
+		"100002",
+        "100004",
+		"100006",
+		"100008"
+	  ]
+    }
+  ]
+}
